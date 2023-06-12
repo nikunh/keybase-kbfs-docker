@@ -2,7 +2,7 @@ version: '3'
 
 services:
   keybase:
-    image: waldner/keybase:4
+    image: nikun/keybase-kbfs:1
     container_name: keybase
     restart: always
 
